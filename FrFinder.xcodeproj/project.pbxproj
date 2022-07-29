@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		606A252AAEFC03EB8252C971 /* Pods_FrFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C771C9AB681CEFE464D81 /* Pods_FrFinder.framework */; };
 		DC078351288B3BD50076A79C /* FrFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC078350288B3BD50076A79C /* FrFinderApp.swift */; };
 		DC078353288B3BD50076A79C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC078352288B3BD50076A79C /* ContentView.swift */; };
 		DC078355288B3BD80076A79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC078354288B3BD80076A79C /* Assets.xcassets */; };
 		DC078358288B3BD80076A79C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC078357288B3BD80076A79C /* Preview Assets.xcassets */; };
+		DC9939E228906D62007213AE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9939E128906D62007213AE /* ImagePicker.swift */; };
+		DC9939E7289191D5007213AE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9939E6289191D5007213AE /* LocationManager.swift */; };
+		DCD244FB288F225C001027B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCD244FA288F225C001027B4 /* GoogleService-Info.plist */; };
+		DCD244FE288F3F7D001027B4 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD244FD288F3F7D001027B4 /* VerifyView.swift */; };
+		DCD24500288F406E001027B4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD244FF288F406E001027B4 /* ProfileView.swift */; };
+		DCD24504288F40C2001027B4 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD24503288F40C2001027B4 /* SwipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		377C771C9AB681CEFE464D81 /* Pods_FrFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FrFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F41ABCEA876D811B30CCF92 /* Pods-FrFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrFinder.debug.xcconfig"; path = "Target Support Files/Pods-FrFinder/Pods-FrFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		DC07834D288B3BD50076A79C /* FrFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC078350288B3BD50076A79C /* FrFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrFinderApp.swift; sourceTree = "<group>"; };
 		DC078352288B3BD50076A79C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC078354288B3BD80076A79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC078357288B3BD80076A79C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC9939E128906D62007213AE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DC9939E6289191D5007213AE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DCD244FA288F225C001027B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCD244FD288F3F7D001027B4 /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		DCD244FF288F406E001027B4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DCD24503288F40C2001027B4 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		FC4AE80AFF15441A9140587C /* Pods-FrFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrFinder.release.xcconfig"; path = "Target Support Files/Pods-FrFinder/Pods-FrFinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606A252AAEFC03EB8252C971 /* Pods_FrFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F3F4AA828014259DC22EC34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377C771C9AB681CEFE464D81 /* Pods_FrFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5C98293B0AED1566C29FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F41ABCEA876D811B30CCF92 /* Pods-FrFinder.debug.xcconfig */,
+				FC4AE80AFF15441A9140587C /* Pods-FrFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC078344288B3BD40076A79C = {
 			isa = PBXGroup;
 			children = (
 				DC07834F288B3BD50076A79C /* FrFinder */,
 				DC07834E288B3BD50076A79C /* Products */,
+				9D5C98293B0AED1566C29FA7 /* Pods */,
+				7F3F4AA828014259DC22EC34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +87,9 @@
 		DC07834F288B3BD50076A79C /* FrFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DCD244FC288F3F59001027B4 /* Views */,
+				DCD244FA288F225C001027B4 /* GoogleService-Info.plist */,
 				DC078350288B3BD50076A79C /* FrFinderApp.swift */,
-				DC078352288B3BD50076A79C /* ContentView.swift */,
 				DC078354288B3BD80076A79C /* Assets.xcassets */,
 				DC078356288B3BD80076A79C /* Preview Content */,
 			);
@@ -67,6 +104,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DCD244FC288F3F59001027B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC078352288B3BD50076A79C /* ContentView.swift */,
+				DCD244FD288F3F7D001027B4 /* VerifyView.swift */,
+				DCD244FF288F406E001027B4 /* ProfileView.swift */,
+				DCD24503288F40C2001027B4 /* SwipeView.swift */,
+				DC9939E128906D62007213AE /* ImagePicker.swift */,
+				DC9939E6289191D5007213AE /* LocationManager.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC07835B288B3BD80076A79C /* Build configuration list for PBXNativeTarget "FrFinder" */;
 			buildPhases = (
+				3148D2F63964F5892E6CEF02 /* [CP] Check Pods Manifest.lock */,
 				DC078349288B3BD50076A79C /* Sources */,
 				DC07834A288B3BD50076A79C /* Frameworks */,
 				DC07834B288B3BD50076A79C /* Resources */,
+				D80FE39ADE269049B6AA0758 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,17 +179,65 @@
 			files = (
 				DC078358288B3BD80076A79C /* Preview Assets.xcassets in Resources */,
 				DC078355288B3BD80076A79C /* Assets.xcassets in Resources */,
+				DCD244FB288F225C001027B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3148D2F63964F5892E6CEF02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FrFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80FE39ADE269049B6AA0758 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrFinder/Pods-FrFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FrFinder/Pods-FrFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FrFinder/Pods-FrFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC078349288B3BD50076A79C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD24500288F406E001027B4 /* ProfileView.swift in Sources */,
+				DCD244FE288F3F7D001027B4 /* VerifyView.swift in Sources */,
 				DC078353288B3BD50076A79C /* ContentView.swift in Sources */,
+				DC9939E7289191D5007213AE /* LocationManager.swift in Sources */,
+				DC9939E228906D62007213AE /* ImagePicker.swift in Sources */,
+				DCD24504288F40C2001027B4 /* SwipeView.swift in Sources */,
 				DC078351288B3BD50076A79C /* FrFinderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +361,7 @@
 		};
 		DC07835C288B3BD80076A79C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F41ABCEA876D811B30CCF92 /* Pods-FrFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +371,15 @@
 				DEVELOPMENT_TEAM = 98C4ST8WF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location\n";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,12 +389,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DC07835D288B3BD80076A79C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4AE80AFF15441A9140587C /* Pods-FrFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +405,15 @@
 				DEVELOPMENT_TEAM = 98C4ST8WF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FrFinder/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location\n";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
